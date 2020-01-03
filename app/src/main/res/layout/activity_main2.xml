@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="?attr/actionBarSize">
+
+
+    <SeekBar
+        android:id="@+id/seekBar5"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="140dp"
+        android:layout_height="39dp"
+        android:max="10"
+        android:progress="5"
+        tools:layout_editor_absoluteX="135dp"
+        tools:layout_editor_absoluteY="132dp" />
+
+    <TextView
+        android:id="@+id/moobility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="E Mobility"
+        android:textColor="#FF0000"
+        android:textSize="36sp"
+        tools:layout_editor_absoluteX="126dp"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="62dp"
+        android:layout_height="63dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="50%"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="178dp" />
+
+    <EditText
+
+        android:id="@+id/a"
+        android:layout_width="146dp"
+        android:layout_height="65dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="18 kmph"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="138dp"
+        tools:layout_editor_absoluteY="297dp" />
+
+    <EditText
+        android:id="@+id/a"
+        android:layout_width="188dp"
+        android:layout_height="59dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="13 km-18km"
+        android:textSize="30sp"
+        tools:layout_editor_absoluteX="111dp"
+        tools:layout_editor_absoluteY="435dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
