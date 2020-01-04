@@ -46,7 +46,7 @@ public class login extends AppCompatActivity {
                     startActivity(intent);
                     finish();
                 }
-            }, 3000);
+            }, 1000);
 
         }else {
             Toast.makeText(getApplicationContext(),
