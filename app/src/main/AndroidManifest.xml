@@ -10,8 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".ui.login.ASDFGH"
-            android:label="@string/title_activity_asdfgh"></activity>
+            android:name=".ui.login.LoginActivity"
+            android:label="@string/title_activity_login" />
+            android:theme="@style/AppTheme.NoActionBar" />
         <activity
             android:name=".createacco"
             android:label="@string/title_activity_createacco"
@@ -24,9 +25,7 @@
             android:name=".createacc"
             android:label="@string/title_activity_createacc"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name=".ui.login.LoginActivity"
-            android:label="@string/title_activity_login" />
+
         <activity
             android:name=".main2"
             android:label="@string/title_activity_main2" />

@@ -29,7 +29,7 @@
         tools:layout_editor_absoluteY="5dp" />
 
     <EditText
-        android:id="@+id/b"
+        android:id="@+id/a"
         android:layout_width="62dp"
         android:layout_height="63dp"
         android:ems="10"
@@ -41,7 +41,7 @@
 
     <EditText
 
-        android:id="@+id/b"
+        android:id="@+id/a"
         android:layout_width="146dp"
         android:layout_height="65dp"
         android:ems="10"
@@ -52,7 +52,7 @@
         tools:layout_editor_absoluteY="297dp" />
 
     <EditText
-        android:id="@+id/b"
+        android:id="@+id/a"
         android:layout_width="188dp"
         android:layout_height="59dp"
         android:ems="10"
